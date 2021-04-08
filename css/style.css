@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+p {
+    font-weight: bold;
+}
+.list-item {
+    color: blue;
+    font-size: 24px;
+}
+#top{
+    background-color: darkblue;
+}
+.box li{
+    font-style: italic;
+}
+.box a {
+    color: crimson;
+}
+.box li a {
+    color: darkred;
+}
+.box > a {
+    font-size: 32px;
+}
+.box ul +a {
+    background-color: gold;
+}
+table thead {
+    background-color: maroon;
+}
+.box ul ~ a {
+    color: midnightblue;
+}
+body {
+    padding: ;
+}
+
+a:hover {
+color: green;
+}
+img {
+    transition: .5s;
+}
+img:hover {
+    transform: scale(1.2);
+}
+input[type=text] {
+    border-color: purple;
+    width: 300px;
+    border-radius: 50% 0 50% 0;
+    height: 70px;
+    border: 2px solid #f00;
+}
+.box .title {
+    color: #f00 ;
+}
+.box h2 {
+    color: rebeccapurple;
+}
